@@ -1,0 +1,31 @@
+.students-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .students-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .students-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .students-list li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .no-students {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+  }
+  

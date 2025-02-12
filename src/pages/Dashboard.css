@@ -1,0 +1,83 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-left: 250px; /* ✅ Ensure it does not overlap the sidebar */
+}
+
+.dashboard-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.stats-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+}
+
+.stat-card.blue {
+  background-color: #3498db;
+}
+
+.stat-card.green {
+  background-color: #2ecc71;
+}
+
+.stat-icon {
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.table-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.student-table th {
+  background-color: #f4f4f4;
+}
+
+.active {
+  color: green;
+  font-weight: bold;
+}
+
+.inactive {
+  color: red;
+  font-weight: bold;
+}
+
+.modal{
+  text-align: center;
+}
